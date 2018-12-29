@@ -31,6 +31,8 @@ body{
     margin-top: 50px;
     text-align: left;
     margin-right: 100px;
+    font-family: 'Lora', serif;
+    text-indent: 50px;
 }
 #portfolio{
     background-color: rgba(211, 211, 203, 0.4);
@@ -110,6 +112,7 @@ body{
     margin-top: 0px;
     overflow: visible;
     text-align: center;
+    background-image: url("../images/green_cup.png");
    
 }
 .modal-image{
@@ -137,10 +140,46 @@ body{
 }
 .modal-link{
     margin-right: 30px;
+    font-family: 'Lora', serif;
+    color: black;
+    text-decoration-line: underline;
+}
+a:hover{
+    color: rgb(218, 216, 216);
 }
 .link-holder{
     position: absolute;
     bottom: 20px;
+}
+#contact{
+    background-color: rgba(211, 211, 203, 0.4);
+    height: 350px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+#contact-head{
+    font-family: 'Charm', cursive;
+    font-size: 70px;
+    border-bottom: 3px double black;
+    padding-top: 40px;
+    margin: 0px 150px;
+    text-align: center;
+}
+#contact-holder{
+    margin-top: 20px;
+    margin-left: 160px;
+    font-family: 'Lora', serif;
+}
+.contact-icon{
+    height: 32px;
+    width: 32px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.contact-link{
+    font-family: 'Lora', serif;
+    color: black;
+    text-decoration-line: underline;
 }
 
 
