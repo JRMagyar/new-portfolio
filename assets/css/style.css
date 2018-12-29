@@ -103,3 +103,57 @@ body{
     font-size: 35px;
     margin-left: 240px;
 }
+.modal{
+    height: 500px;
+    width: 500px;
+    margin-left: 700px;
+    margin-top: 0px;
+    overflow: visible;
+    text-align: center;
+   
+}
+.modal-image{
+    height:500px;
+    width: 700px;
+    position: absolute;
+    left: -700px;
+    top: 0px;
+}
+.modal-title{
+    font-family: 'Niconne', cursive;
+    font-size: 35px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+.modal-description{
+    text-align: left;
+    padding-top: 10px;
+    text-indent: 30px;
+    font-family: 'Lora', serif;
+}
+.icon{
+    height: 32px;
+    width: 32px;
+}
+.modal-link{
+    margin-right: 30px;
+}
+.link-holder{
+    position: absolute;
+    bottom: 20px;
+}
+
+
+/* media queries for modal on mobile */
+/* modal is centered on page and image is not displayed*/
+@media screen and (max-width: 980px){
+    .modal{
+        height: 500px;
+        width: 500px;
+        margin-left: 0px;
+    }
+    .modal-image{
+       display: none;
+    }
+      
+}
