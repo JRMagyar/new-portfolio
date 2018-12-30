@@ -85,6 +85,10 @@ body{
     margin-left: 210px;
     margin-right: 225px;
 }
+.card-right{
+    margin-left: 75px;
+    margin-right: 225px;
+}
 .card-link{
     position: absolute;
     bottom: 10px;
@@ -99,11 +103,21 @@ body{
     height: 100%;
     width: 100%;
 }
-.card-title{
+.card-title-left{
     position: absolute;
     font-family: 'Niconne', cursive;
     font-size: 35px;
-    margin-left: 240px;
+    margin-left: 210px;
+    width: 250px;
+    text-align: center;
+}
+.card-title-right{
+    position: absolute;
+    font-family: 'Niconne', cursive;
+    font-size: 35px;
+    margin-left: 75px;
+    width: 250px;
+    text-align: center;
 }
 .modal{
     height: 500px;
