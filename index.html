@@ -23,7 +23,7 @@
     <main class="container">
         <div class="jumbotron jumbotron-fluid" id="about-me" data-aos="fade-down">
             <div class="container">
-                <h1 class="display-4" id="about-head">About Me</h1>
+                <h1 class="display-4" id="about-head">Julia Magyar</h1>
                 <img id="my-photo" class="float-left rounded-circle" src="assets/images/hs-styled.png">
                 <p id="about-text"class="lead">Web developer with experience in html, css, and javascript. Partly self taught and currently going through a coding boot camp while working full time. Always looking for the opportunity to learn something new and build on old knowledge in order to create new, exciting web applications. Was originally pursuing a degree in sociology at The Ohio State University before reigniting passion for coding. Planning to return to school part time in pursuit of a CS degree. Looking for opportunities to increase my knowledge and skill set while contributing to a development team.
 </p>
@@ -32,7 +32,9 @@
 
         <div id="portfolio" data-aos="fade-up">
             <h1 class="display-4" id="portfolio-head">Portfolio</h1>
+            <!--First Row-->
             <div class="row port-row">
+                <!--Trivia Game-->
                 <div class="col-6">
                     <div class="card-holder card-left">
                         <div class="card rounded" id="card-hold1">
@@ -47,7 +49,7 @@
                     </div>
                     <h3 class="card-title-left">Trivia Game</h3>
                 </div>
-
+                <!--Night out app-->
                 <div class="col-6">
                     <div class="card-holder card-right">
                         <div class="card rounded" id="card-hold1">
@@ -61,6 +63,24 @@
                         </div>
                     </div>
                     <h3 class="card-title-right">Night on the Town</h3>
+                </div>
+            </div>
+            <!--Second Row-->
+            <div class="row port-row port-follow-row">
+                <!--Memory Game-->
+                <div class="col-6">
+                    <div class="card-holder card-left">
+                        <div class="card rounded" id="card-hold1">
+                            <div class="card-front rounded">
+                                <img class="rounded card-image" src="assets/images/memory-game.jpg">
+                            </div>
+                            <div class="card-back rounded">
+                                <p>#HTML #CSS #Bootstrap #JavaScript #jQuery</p>
+                                <p><a class="card-link" href="#memory-modal" rel="modal:open">Learn More</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="card-title-left">Memory Game</h3>
                 </div>
             </div>
             
@@ -91,6 +111,7 @@
         
 
         <!--MODALS-->
+        <!--Trivia Game Modal-->
         <div id="trivia-modal" class="modal animated fadeInRight">
             <img class="rounded modal-image" src="assets/images/trivia.jpg">
             <h3 class="modal-title">Trivia Game</h3>
@@ -105,7 +126,7 @@
     
             </div>
         </div>
-
+        <!--Night Out Modal-->
         <div id="night-out-modal" class="modal animated fadeInRight">
             <img class="rounded modal-image" src="assets/images/night-out.jpg">
             <h3 class="modal-title">Night on the Town</h3>
@@ -120,6 +141,22 @@
     
             </div>
         </div>
+        <!--Memory Game Modal-->
+        <div id="memory-modal" class="modal animated fadeInRight">
+                <img class="rounded modal-image" src="assets/images/memory-game.jpg">
+                <h3 class="modal-title">Memory Game</h3>
+                <p class="modal-description">A memory based match game created using JavaScript. It assigns each possible value to two random cards on the "table". When clicked front of the card is displayed, which is determined by the assigned value. When two cards of the same value are selected they are both removed from play. The user successfully completes the game when all cards are removed from play. Whenever the "New Game" button is selected the cards are "shuffled" and the game restarts.</p>
+                <div class="link-holder">
+                    <img src="assets/images/screen.png" class="icon">
+                    <a href="https://jrmagyar.github.io/memory-game/" target="_blank" class="modal-link">Live Page</a>
+                    <img src="assets/images/github-mark.png" class="icon">
+                    <a href="https://github.com/JRMagyar/memory-game" target="_blank" class="modal-link">GitHub Repo</a>
+                    <img src="assets/images/page.png" class="icon">
+                    <a href="https://github.com/JRMagyar/memory-game/blob/master/README.md" target="_blank" class="modal-link">ReadMe</a>
+        
+                </div>
+        </div>
+
     </main>
 </body>
 </html>

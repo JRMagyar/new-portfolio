@@ -195,6 +195,9 @@ a:hover{
     color: black;
     text-decoration-line: underline;
 }
+.port-follow-row{
+    margin-top: 30px;
+}
 
 
 /* media queries for modal on mobile */
