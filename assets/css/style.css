@@ -198,6 +198,29 @@ a:hover{
 .port-follow-row{
     margin-top: 30px;
 }
+#nav-side{
+    height:400px;
+    width: 80px;
+    background-color: rgba(87, 87, 82, 0.541);
+    position: fixed;
+    top: 100px;
+    left: 0px;
+
+}
+.nav-icon{
+    margin-left: 20px;
+    margin-top:10px;
+    margin-right: 20px;
+    height:40px;
+    width:40px;
+}
+.nav-title{
+    font-family: 'Lora', serif;
+    width: 70px;
+    margin-left: 5px;
+    font-size: 15px;
+    text-align: center;
+}
 
 
 /* media queries for modal on mobile */
