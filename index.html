@@ -21,7 +21,7 @@
 </head>
 <body>
     <main class="container">
-        <div class="jumbotron jumbotron-fluid" id="about-me" data-aos="fade-down">
+        <div class="jumbotron jumbotron-fluid" id="about-me">
             <div class="container">
                 <h1 class="display-4" id="about-head">Julia Magyar</h1>
                 <img id="my-photo" class="float-left rounded-circle" src="assets/images/hs-styled.png">
@@ -30,7 +30,7 @@
             </div>
         </div>
 
-        <div id="portfolio" data-aos="fade-up">
+        <div id="portfolio">
             <h1 class="display-4" id="portfolio-head">Portfolio</h1>
             <!--First Row-->
             <div class="row port-row">
@@ -87,7 +87,7 @@
             
         </div>
 
-        <div id="contact" data-aos="fade-up">
+        <div id="contact">
             <h1 class="display-4" id="contact-head">Contact</h1>
             <div id="contact-holder">
                 <div class="row">
@@ -110,18 +110,19 @@
         </div>
         
         <div id="nav-side" class="rounded">
-            <img src="assets/images/about.png" class="nav-icon">
+            <a href="#about-me"><img src="assets/images/about.png" class="nav-icon"></a>
             <p class="nav-title">About Me</p>
 
-            <img src="assets/images/portfolio.png" class="nav-icon">
+            <a href="#portfolio"><img src="assets/images/portfolio.png" class="nav-icon"></a>
             <p class="nav-title">Portfolio</p>
 
-            <img src="assets/images/contact.png" class="nav-icon">
+            <a href="#contact"><img src="assets/images/contact.png" class="nav-icon"></a>
             <p class="nav-title">Contact</p>
 
             <br><br>
-            <img src="assets/images/resume.png" class="nav-icon">
-            <p class="nav-title">Resume</p>
+            <a href="assets/files/Julia Magyar Resume.docx" download="Julia Magyar Resume">
+            <img src="assets/images/resume.png" class="nav-icon button"> </a>
+            <p class="nav-title" >Resume</p>
         </div>
 
         <!--MODALS-->
